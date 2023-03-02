@@ -15,8 +15,8 @@ platforms:
     tmpfs:
       - /tmp
       - /run
-    capabilities:
-      - SYS_ADMIN
+    #capabilities:
+    #  - SYS_ADMIN
     tty: true
     env:
       http_proxy: "${http_proxy}"
