@@ -1,0 +1,26 @@
+{
+  "version": "2.0.5",
+  "summary": {
+    "title": "New Threat Model",
+    "owner": "sandy",
+    "description": "",
+    "id": 0
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": [
+      {
+        "id": 0,
+        "title": "New DIE diagram",
+        "diagramType": "DIE",
+        "placeholder": "New DIE diagram description",
+        "thumbnail": "./public/content/images/thumbnail.die.jpg",
+        "version": "2.0.5",
+        "cells": []
+      }
+    ],
+    "diagramTop": 1,
+    "reviewer": "mamang",
+    "threatTop": 0
+  }
+}
