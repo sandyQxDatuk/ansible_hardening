@@ -48,8 +48,8 @@
             },
             "attrs": {
               "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1,
+                "stroke": "red",
+                "strokeWidth": 3,
                 "strokeDasharray": null
               }
             },
@@ -64,8 +64,22 @@
               "outOfScope": false,
               "reasonOutOfScope": "",
               "privilegeLevel": "",
-              "hasOpenThreats": false,
-              "threats": []
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "id": "fe166199-b80e-4168-b08c-c7f7c5c78314",
+                  "title": "New DIE threat",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Distributed",
+                  "description": "Provide a description for this threat",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "DIE",
+                  "new": false,
+                  "number": 1,
+                  "score": ""
+                }
+              ]
             }
           },
           {
@@ -126,6 +140,6 @@
     ],
     "diagramTop": 1,
     "reviewer": "mamang",
-    "threatTop": 0
+    "threatTop": 1
   }
 }
